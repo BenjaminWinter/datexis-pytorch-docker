@@ -9,7 +9,7 @@ RUN ln -s /usr/bin/python3.7 /usr/bin/python
 RUN python -m pip install --upgrade pip
 
 #install pytorch
-RUN pip install torch torchvision torchtext numpy scipy scikit-learn pandas
+RUN pip install torch torchvision torchtext numpy tensorboardX>=1.9 tqdm scipy scikit-learn pandas
 
 # install apex
 WORKDIR /tmp/unique_for_apex
