@@ -10,7 +10,6 @@ RUN python -m pip install --upgrade pip
 #install pytorch
 RUN pip install torch==1.7.0 torchvision torchtext tensorboardX>=1.9 tqdm numpy scipy scikit-learn pandas
 
-
 WORKDIR /workspace
 
 # install nvtop
